@@ -1,0 +1,37 @@
+{
+  "name": "splitbrain/postidredirector",
+  "description": "Redirect to discussion by post ID",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^1.0.0"
+  },
+  "authors": [
+    {
+      "name": "Andreas Gohr",
+      "email": "andi@splitbrain.org",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "splitbrain\\postidredirector\\": "postidredirector/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Post ID Redirector",
+      "icon": {
+        "name": "fas fa-directions",
+        "backgroundColor": "#008000",
+        "color": "#fff"
+      }
+    },
+    "flagrow": {
+      "discuss": ""
+    }
+  }
+}
